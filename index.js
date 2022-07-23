@@ -35,6 +35,8 @@ export function reactive(obj) {
       target[key] = value;
       trigger(target,key)
       return true
+
+      
     }
   })
 }
